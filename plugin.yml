@@ -1,0 +1,29 @@
+name: GChub
+main: si.gigacraft.hub.GChub.GChub
+version: 1.0
+author: GigaCraft
+description: >
+             GigaCraft Minecraft HUB Tools!
+
+website: http://www.gigacraft.si
+load: startup
+depend: ['Vault']
+commands:
+  vote:
+    aliases: [gc-vote]
+  banneditems:
+    aliases: [gc-banned, banned]
+  help:
+    aliases: [gc-help, about, info]
+  rules:
+    aliases: [gc-rules]
+  fly:
+    aliases: [gc-fly, efly]
+  gmc:
+    aliases: [creative]
+  gma:
+    aliases: [adventure, survival, gamemode, gms]
+  plugins:
+    aliases: [pl, plug]
+  spawn:
+    aliases: [espawn, warp]
